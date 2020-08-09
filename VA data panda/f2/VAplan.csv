@@ -1,0 +1,88 @@
+,Unnamed: 0,Unnamed: 0.1,Unnamed: 0.1.1,Unnamed: 0.1.1.1,County,studentNum,Elem_plan,Second_plan,Risk
+0,0,0,0,1,Alleghany,2024.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+1,1,1,1,2,Botetourt,4672.0,"All students PK-Grade 2, 4 days in-school and 1 days virtual","Grade 3-12, 2 days in-school (50% students) and 3 days virtual ",High
+2,2,2,2,4,Craig,588.0,All students in-person 4 days and 1 day virtual,2 days in-school (50% students) and 3 days virtual ,High
+3,3,3,3,5,Roanoke County,13999.0,All students K-2 in-person 5 days with reduced size,"Grade 3-12, 2 days in-school (50% students) and 3 days virtual ",High
+4,4,4,4,6,Salem,3931.0,All students K-2 in-person 5 days with reduced size,"Grade 3-12, 2 days in-school (50% students; Staggered) and 3 days virtual ",High
+5,5,5,5,7,Arlington,28151.0,All Virtual,All Virtual,Low
+6,6,6,6,8,Augusta,10342.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+7,7,7,7,10,Buena Vista City,895.0,"PK-Grade 7, 4 days in-person (smaller cohort) and 1 day virtual ",2 days in-school (50% students) and 3 days virtual ,High
+8,8,8,8,11,Harrisonburg,6613.0,All Virtual,All Virtual,Low
+9,9,9,9,13,Lexington,503.0,All students 5 days in-school on shortned schedule,All students 5 days in-school on shortned schedule,High
+10,10,10,10,14,Rockbridge,2819.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+11,11,11,11,16,Staunton,2738.0,2 days in-school (50% students) with modified schedule and 3 days virtual ,2 days in-school (50% students) with modified schedule and 3 days virtual ,Moderate
+12,12,12,12,17,Waynesboro,2961.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+13,13,13,13,18,Amherst,4115.0,All students 4 days in-school on staggered schedule and 1 day virtual,2 days in-school (50% students) and 3 days virtual ,Moderate
+14,14,14,14,20,Bedford,9562.0,"PK-Grade 6, 4 days in-personwith social distancing and 1 day virtual ",2 days in-school (50% students) and 3 days virtual ,High
+15,15,15,15,21,Campbell,7921.0,All students 4 days in-school and 1 day virtual,2 days in-school (50% students) and 3 days virtual ,High
+16,16,16,16,22,Lynchburg,8238.0,2 days in-school (50% students) and 2 days virtual,All students virtual until September 8,Moderate
+17,17,17,17,24,Chesterfield*,62669.0,All Virtual,All Virtual,Low
+18,18,18,18,28,Goochland,2619.0,"PK and K, 2 days in-school (50% students) and 3 days virtual ;Grade 1-8 4 days in-person (50% students) and 1 day virtual","Grade 9-12, 2 days in-school (50% students) and 3 days virtual ",Moderate
+19,19,19,19,29,Hanover,17541.0,All students 5 days in-school  (reduced and staggered bus timing),All students 5 days in-school  (reduced and staggered bus timing),High
+20,20,20,20,39,Buchanan,2676.0,All students 4 days in-school and 1 day virtual,All students 4 days in-school and 1 day virtual,High
+21,21,21,21,40,Dickenson,2064.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+22,22,22,22,41,Russell,3715.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+23,23,23,23,42,Tazewell,5587.0,All students 4 days in-school and 1 day virtual,All students 4 days in-school and 1 day virtual,Moderate
+24,24,24,24,43,Accomack,5171.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+25,25,25,25,44,Northampton,1520.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+26,26,26,26,45,Fairfax,188940.0,Selective students 1 day in-school and 4 days virtual ,Selective students 1 day in-school and 4 days virtual ,Low
+27,27,27,27,46,Fairfax City,1078.0,All students 1 day in-person and 4 days virtual ,All students 1 day in-person and 4 days virtual ,Low
+28,28,28,28,47,Falls Church,2649.0,All virtual,All virtual,Low
+29,29,29,29,49,Henrico,51786.0,All virtual,All virtual,Low
+30,30,30,30,50,Lee,3192.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+31,31,31,31,51,Norton,818.0,All students 4 days in-school and 1 day virtual,All students 4 days in-school and 1 day virtual,High
+32,32,32,32,52,Scott,3512.0,All students 4 days in-school and 1 day virtual,All students 4 days in-school and 1 day virtual,High
+33,33,33,33,53,Wise,5632.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+34,34,34,34,54,Clarke,1926.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+35,35,35,35,57,Shenandoah,6006.0,All students 4 days in-school and 1 day virtual,1 day in-school (25% students) and 3 day virtual,High
+36,36,36,36,59,Winchester,4392.0,All students 4 days in-school and 1 day virtual,2 days in-school (50% students) and 3 days virtual ,High
+37,37,37,37,60,Loudoun,83936.0,All virtual,All virtual,Low
+38,38,38,38,61,Bland,693.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+39,39,39,39,63,Carroll,3713.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+40,40,40,40,64,Galax,1338.0,All students 5 days in-school   ,All students 5 days in-school  on modified schedule,High
+41,41,41,41,65,Grayson,1556.0,All students 4 days in-school and 1 day virtual,All students 4 days in-school and 1 day virtual,High
+42,42,42,42,66,Smyth,4269.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+43,43,43,43,67,Washington,7052.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+44,44,44,44,68,Wythe,3982.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+45,45,45,45,69,Floyd,1923.0,"PK-3, 4 days in-school and Grade 4-7, 2 days in-school(50% students) 1 day virtual",1 day in-school (25% students) and 4 days virtual,High
+46,46,46,46,71,Montgomery,10102.0,4 half days (50% students),4 half days (50% students),Moderate
+47,47,47,47,72,Pulaski,4096.0,5 days in-school  (25% students),"Grade 6-8, Half day first week and all virtual from week 2. Grade 9-12, 5 days in-school  (25% students)",Moderate
+48,48,48,48,73,Radford,1642.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+49,49,49,49,74,Norfolk,29851.0,All virtual,All virtual,Low
+50,50,50,50,75,James City,11666.0,All virtual,All virtual,Low
+51,51,51,51,76,Newport News,28655.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+52,52,52,52,78,Willamsburg,11805.0,All virtual,All virtual,Low
+53,53,53,53,80,Amelia,1731.0,All students 4 days in-school and 1 day virtual,2 days in-school (50% students) and 3 days virtual ,High
+54,54,54,54,81,Buckingham,2113.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+55,55,55,55,82,Charlotte,1763.0,All virtual ,All virtual,Low
+56,56,56,56,83,Cumberland,1321.0,All virtual,All virtual,Low
+57,57,57,57,84,Lunenburg,1590.0,All students 4 days in-school and 1 day virtual,2 days in-school (50% students) and 3 days virtual ,High
+58,58,58,58,85,Nottoway,1990.0,2 days in-school (?% students) and 3 days virtual ,2 days in-school (?% students) and 3 days virtual ,Moderate
+59,59,59,59,87,Danville,5702.0,"All students K-3, 4 days in-school and 1 day virtual","Grade 3-12, 2 days in-school (50% students) and 3 days virtual",h
+60,60,60,60,88,Pittsylvania,8723.0,"All students K-3, 4 days in-school and 1 day virtual. Grade 4-5, 2 days in-school (50% students) and 3 days virtual",2 days in-school (50% students) and 3 days virtual ,High
+61,61,61,61,90,Manassas City,7789.0,All virtual ,All virtual,Low
+62,62,62,62,91,Manassas Park,3641.0,All virtual ,All virtual,Low
+63,63,63,63,92,Prince William,92270.0,All virtual ,All virtual,Low
+64,64,64,64,94,Fredericksburg,3763.0,All virtual ,All virtual,Low
+65,65,65,65,95,King George,4518.0,All virtual ,All virtual,Low
+66,66,66,66,96,Spotsylvania,23903.0,All virtual ,All virtual,Low
+67,67,67,67,97,Stafford,30120.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+68,68,68,68,98,Culpeper,8521.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+69,69,69,69,99,Fauquier,11181.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+70,70,70,70,100,Madison,1726.0,"All students K-3, 4 days in-school and 1 day virtual. Grade 4-5, 2 days in-school (50% students) and 3 days virtual","Grade 6-7, 2 days in-school (50% students) and 3 days virtual. Grade 8, 1 day in-school (50% student) and 4 days virtual",Moderate
+71,71,71,71,101,Orange,5092.0,2 days in-school (50% students) and 3 days virtual ,"Grade 6-8, 2 days in-school and 3 days virtual. Grade 9-12, 1 day in-school (25% student) and 4 days virtual",Moderate
+72,72,72,72,102,Rappahannock,791.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+73,73,73,73,103,Richmond City,25212.0,All virtual ,All virtual ,Low
+74,74,74,74,104,Roanoke City,14049.0, 4 days in-school (70% students) and 1 day virtual, 4 days in-school (70% students) and 1 day virtual,High
+75,75,75,75,105,Brunswick,1538.0,All virtual ,All virtual ,Low
+76,76,76,76,110,Fluvanna,3549.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+77,77,77,77,111,Greene,2978.0,All students 5 days in-school,2 days in-school (50% students) and 3 days virtual ,High
+78,78,78,78,112,Louisa,4987.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+79,79,79,79,113,Nelson,1695.0,All virtual ,All virtual ,only special need in-person
+80,80,80,80,114,Essex,1320.0,All virtual ,All virtual ,only special need in-person
+81,81,81,81,116,King and Queen,833.0,"PK-7, 2 days in-school (50% students) and 3 days virtual","Grade 8-12, 3 groups (50% students)",Moderate
+82,82,82,82,117,King William,2188.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+83,83,83,83,120,Middlesex,1208.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+84,84,84,84,121,Northumberland,1279.0,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate
+85,85,85,85,128,Martinsville,1930.0,2 days in-school (50% students) and 3 days virtual ,1 day in-school (50% students) and 4 days virtual ,Moderate
+86,86,86,86,133,Suffolk,14323.0,1 day in-school (25% students) and 3 days virtual ,1 day in-school (25% students) and 3 days virtual ,Moderate
