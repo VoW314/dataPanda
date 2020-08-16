@@ -1,4 +1,4 @@
-# dataPanda
+# VA DATA PANDAS
 
 The following is a project that answers the question "What is the risk of going back to schools
 in Virginia in the Fall?" The data is currently from July and being updated. Typing the command:
