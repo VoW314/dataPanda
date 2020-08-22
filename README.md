@@ -23,7 +23,8 @@ using the **Anaconda Prompt(miniconda3)** terminal. This is the link: https://do
 
 After you get said terminal then type in the following command : ```conda install -c plotly plotly``` and/or
 ```conda install -c conda-forge dash```. After it is done searching it will give a list of libraries and imports
-that will also be installed. Type ```y``` and enter. 
+that will also be installed. Type ```y``` and enter. Afterwards you should be able to run the program as long as
+you have all the pre-requesites listed in **1.**. 
 
 
 README last updated: 
