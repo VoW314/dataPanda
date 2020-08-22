@@ -5,7 +5,7 @@ in Virginia in the Fall?" The latest update to the data was 8/17/20. Typing the 
 ```python app.py``` in the terminal will create the page. From there go to this link ```http://127.0.0.1:8050/```
 which will host the Plotly dash application on your local device. 
 
-#Notes and Other Information
+# Notes and Other Information
 
 1.**Required Libaries** 
 If you are running this on your local machine you will require to have installed the following
