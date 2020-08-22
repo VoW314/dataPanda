@@ -7,7 +7,7 @@ which will host the Plotly dash application on your local device.
 
 # Notes and Other Information
 
-1.**Required Libaries** 
+ 1.**Required Libaries** 
 If you are running this on your local machine you will require to have installed the following
 libaries: 
   ```
@@ -16,7 +16,7 @@ libaries:
   dash
   plotly.express
   ```
-2. **Miniconda terminal** 
+  2. **Miniconda terminal** 
 
 If for some reason you are unable to ```pip3``` or ```pip``` install these then I would reccomend
 using the **Anaconda Prompt(miniconda3)** terminal. This is the link: https://docs.anaconda.com/anaconda/install/ . 
