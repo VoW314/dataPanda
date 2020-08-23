@@ -1,4 +1,5 @@
 
+#IMPORTS
 #Analytics and path imports
 import os #good for working with files
 import pathlib #find path
@@ -9,42 +10,126 @@ import pandas as pd #data analytics library
 import plotly.express as px #maps
 import dash #the main library
 import dash_core_components as dcc #dash components
-import plotly.graph_objects as go
+import plotly.graph_objs as go
 import dash_html_components as html #html dash components
 from dash.dependencies import Input, Output, State #Allows user inputs and outputs
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__)
+app.config.suppress_callback_exceptions = True
 app.title = "VA DATA PANDAS"
 
-#import and clean the data
+#IMPORT AND CLEAN DATA
 VAplan = pd.read_csv('files/VAplan3.csv')
 VAplan = VAplan[pd.notnull(VAplan['Risk'])]
 
-VAplan = pd.DataFrame(VAplan, columns =['County', 'Number of Students', 'Elementary School Plan', 'Secondary School Plan', 'Risk']) #creates a dataFrame based off VAplan
+#High Risk
+highRk = VAplan[ VAplan['Risk'] == "High"]
+highRk.to_csv('files/dsplit/Highrisk.csv')
 
+#low Risk
+lowRk = VAplan[ VAplan['Risk'] == "Low"]
+lowRk.to_csv('files/dsplit/Lowrisk.csv')
 
-print("---------------")
+#moderate Risk
+modRk = VAplan[ VAplan['Risk'] == "Moderate"]
+modRk.to_csv('files/dsplit/Modrisk.csv')
+
+#still planning
+spRk = VAplan[ VAplan['Risk'] == "still planning"]
+spRk.to_csv('files/dsplit/sp.csv')
+
+#only special needs are at risk as they come into school
+osn = VAplan [ VAplan['Risk'] == "only special need in-person"]
+osn.to_csv('files/dsplit/osn.csv')
+
+#CREATE DATAFRAMES
+VAplan = pd.DataFrame(VAplan, columns =['County', 'Number of Students', 'Elementary School Plan', 'Secondary School Plan', 'Risk'])
+high = pd.DataFrame(highRk, columns =['County', 'Number of Students', 'Elementary School Plan', 'Secondary School Plan', 'Risk'])
+mod = pd.DataFrame(modRk, columns =['County', 'Number of Students', 'Elementary School Plan', 'Secondary School Plan', 'Risk'])
+low = pd.DataFrame(lowRk, columns =['County', 'Number of Students', 'Elementary School Plan', 'Secondary School Plan', 'Risk'])
+sp = pd.DataFrame(spRk,columns =['County', 'Number of Students', 'Elementary School Plan', 'Secondary School Plan', 'Risk'])
+osn = pd.DataFrame(osn, columns =['County', 'Number of Students', 'Elementary School Plan', 'Secondary School Plan', 'Risk'])
+
+#print all to console to make sure they all work
 print(VAplan)
+print(high)
+print(mod)
+print(low)
+print(sp)
+print(osn)
 #-------------------------------
+colors = {
+    'background' : '#d8dadd',
+    'text' : '#fbfbfb'
+}
 
-#figure properties
-fig = px.bar(VAplan, x="County", y='Number of Students',
+
+#FIGURES
+full = px.bar(VAplan, x="County", y='Number of Students',
                         hover_data=['Risk'],color='Risk')
 
+high = px.bar(high, x="County", y='Number of Students',
+                        hover_data=['Risk'],color='Risk')
 
+mod = px.bar(mod,x="County", y='Number of Students',
+                        hover_data=['Risk'],color='Risk')
+
+low = px.bar(low, x="County", y='Number of Students',
+                        hover_data=['Risk'],color='Risk')
+
+sp = px.bar(sp, x="County", y='Number of Students',
+                        hover_data=['Risk'],color='Risk')
+
+osn = px.bar(osn, x="County", y='Number of Students',
+                        hover_data=['Risk'],color='Risk')
+
+#--------------------------------------------------------
 #layout
-app.layout = html.Div(children = [
-    #import css styling here
-    html.H1(children='Number of Students Per County'),
-    html.P(children="The following is a bar chart. The data is updated as of 8/17/20. If your county is not any of the charts then it means that your county did not post a plan before the date when this was last taken. "),
-    dcc.Graph(
-        id='students',
-        figure=fig
-    )
+options = [
 
+  {'label' : 'All data', 'value' : 'full'},
+  {'label' : 'High Risk', 'value' : 'high'},
+  {'label' : 'Moderate Risk', 'value' : 'mod'},
+  {'label' : 'Low Risk', 'value' : 'low'},
+  {'label' : 'Still planning', 'value' : 'sp'},
+  {'label' : 'Only special-needs in school', 'value' : 'osn'}
+],
+
+app.layout = html.Div(children = [
+    html.Div(className='row',
+    children=[
+        html.Div(className='four columns div-user-controls',
+        children=[
+            html.H2("How Safe is it to Open Schools in VA during the Fall?"),
+            html.P('The following charts show the objective risk of almost every counties re-opening plan in Virginia.This data was last updated on 08-17-20.'),
+            html.Br(),
+            dcc.Dropdown(
+                options = options,
+                searchable=False
+            ),
+            html.P("Made with Plotly - Dash")
+        ]),
+        html.Div(className='eight columns div-for-charts bg-grey',
+        children=[
+            dcc.Graph(
+            id='rks',
+            figure=full
+            )
+        ]),
+        html.Div(
+            children=[
+            html.Br(),
+            html.H4("Data Report"),
+            html.P("The data collected by “VA Data Pandas” is the census information of each Virginia county as well as the reopening plans for every county in Virginia due to the Covid-19 pandemic. Counties that are completely in person have the highest risk while those that are virtual have the lowest/no risk. This data is meant to be used while deciding how safe it is for schools to open during the Fall. "),
+            html.Br(),
+            html.P("I used my own perspective of the CDC school reopening guidelines to find the risk type of each county’s plan. ")
+            ]
+        )
+    ])
 
 ])
+
 
 if __name__ =='__main__':
     app.run_server(debug=True)
