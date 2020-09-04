@@ -5,6 +5,7 @@ import os #good for working with files
 import pathlib #find path
 import re #all importable objects are compiled regular expressions
 import pandas as pd #data analytics library
+import json
 
 #Dash imports
 import plotly.express as px #maps
@@ -20,7 +21,8 @@ app.config.suppress_callback_exceptions = True
 app.title = "VA DATA PANDAS"
 
 #IMPORT AND CLEAN DATA
-VAplan = pd.read_csv('files/VAplan3.csv')
+#this is the same code from my datasplitter.ipynb file
+VAplan = pd.read_csv('files/VAplan4.csv')
 VAplan = VAplan[pd.notnull(VAplan['Risk'])]
 
 #High Risk
@@ -43,21 +45,18 @@ spRk.to_csv('files/dsplit/sp.csv')
 osn = VAplan [ VAplan['Risk'] == "only special need in-person"]
 osn.to_csv('files/dsplit/osn.csv')
 
-#CREATE DATAFRAMES
-VAplan = pd.DataFrame(VAplan, columns =['County', 'Number of Students', 'Elementary School Plan', 'Secondary School Plan', 'Risk'])
-high = pd.DataFrame(highRk, columns =['County', 'Number of Students', 'Elementary School Plan', 'Secondary School Plan', 'Risk'])
-mod = pd.DataFrame(modRk, columns =['County', 'Number of Students', 'Elementary School Plan', 'Secondary School Plan', 'Risk'])
-low = pd.DataFrame(lowRk, columns =['County', 'Number of Students', 'Elementary School Plan', 'Secondary School Plan', 'Risk'])
-sp = pd.DataFrame(spRk,columns =['County', 'Number of Students', 'Elementary School Plan', 'Secondary School Plan', 'Risk'])
-osn = pd.DataFrame(osn, columns =['County', 'Number of Students', 'Elementary School Plan', 'Secondary School Plan', 'Risk'])
+VAmap = json.load(open("files/VAmap.geojson", "r"))
 
-#print all to console to make sure they all work
-print(VAplan)
-print(high)
-print(mod)
-print(low)
-print(sp)
-print(osn)
+
+#CREATE DATAFRAMES
+VAplan = pd.DataFrame(VAplan, columns =['County', 'Number of Students', 'Elementary School Plan', 'Secondary School Plan', 'Risk', 'FIPS', "Cases"])
+high = pd.DataFrame(highRk, columns =['County', 'Number of Students', 'Elementary School Plan', 'Secondary School Plan', 'Risk', 'FIPS', "Cases"])
+mod = pd.DataFrame(modRk, columns =['County', 'Number of Students', 'Elementary School Plan', 'Secondary School Plan', 'Risk', 'FIPS', "Cases"])
+low = pd.DataFrame(lowRk, columns =['County', 'Number of Students', 'Elementary School Plan', 'Secondary School Plan', 'Risk', 'FIPS', "Cases"])
+sp = pd.DataFrame(spRk,columns =['County', 'Number of Students', 'Elementary School Plan', 'Secondary School Plan', 'Risk', 'FIPS', "Cases"])
+osn = pd.DataFrame(osn, columns =['County', 'Number of Students', 'Elementary School Plan', 'Secondary School Plan', 'Risk', 'FIPS', "Cases"])
+
+
 #-------------------------------
 colors = {
     'background' : '#d8dadd',
@@ -65,36 +64,31 @@ colors = {
 }
 
 
-#FIGURES
-full = px.bar(VAplan, x="County", y='Number of Students',
-                        hover_data=['Risk'],color='Risk')
+#FIGURES px
+high = px.bar(high, x="County", y="Number of Students", color='Risk',
+            title="High Risk Counties", barmode='group', height=500, hover_data=['Cases'],
+            color_discrete_sequence=['#de7070'])
 
-high = px.bar(high, x="County", y='Number of Students',
-                        hover_data=['Risk'],color='Risk')
-
-mod = px.bar(mod,x="County", y='Number of Students',
-                        hover_data=['Risk'],color='Risk')
+mod = px.bar(mod, x="County", y='Number of Students',
+                        hover_data=['Risk', 'Cases'],color='Risk', height=500, title="Moderate Risk Counties",
+                        color_discrete_sequence=['#cfd64c']*len(mod))
 
 low = px.bar(low, x="County", y='Number of Students',
-                        hover_data=['Risk'],color='Risk')
+                        hover_data=['Risk', 'Cases'],color='Risk', height=500, color_discrete_sequence=['#6dbd73'],
+                         title="Low Risk Counties")
 
-sp = px.bar(sp, x="County", y='Number of Students',
-                        hover_data=['Risk'],color='Risk')
 
-osn = px.bar(osn, x="County", y='Number of Students',
-                        hover_data=['Risk'],color='Risk')
+full = px.bar(VAplan, x="County", y='Number of Students',
+                        hover_data=['Risk', 'Cases'],color='Risk')
+
+#mapF = px.choropleth(VAplan, geojson=VAmap, color='Risk', locations='FIPS',
+#                    projection="mercator", hover_data=["Cases", "Risk"])
+
+
 
 #--------------------------------------------------------
 #layout
-options = [
 
-  {'label' : 'All data', 'value' : 'full'},
-  {'label' : 'High Risk', 'value' : 'high'},
-  {'label' : 'Moderate Risk', 'value' : 'mod'},
-  {'label' : 'Low Risk', 'value' : 'low'},
-  {'label' : 'Still planning', 'value' : 'sp'},
-  {'label' : 'Only special-needs in school', 'value' : 'osn'}
-],
 
 app.layout = html.Div(children = [
     html.Div(className='row',
@@ -102,20 +96,32 @@ app.layout = html.Div(children = [
         html.Div(className='four columns div-user-controls',
         children=[
             html.H2("How Safe is it to Open Schools in VA during the Fall?"),
-            html.P('The following charts show the objective risk of almost every counties re-opening plan in Virginia.This data was last updated on 08-17-20.'),
-            html.Br(),
-            dcc.Dropdown(
-                options = options,
-                searchable=False
-            ),
-            html.P("Made with Plotly - Dash")
+            html.P('The following charts show the objective risk of almost every counties re-opening plan in Virginia.This data was last updated on 08-17-20. The risk is based off the plans for the county. When hovered over, bars will tell the Risk, County, Number of Students, and Number of Cases'),
+            html.Br()
         ]),
-        html.Div(className='eight columns div-for-charts bg-grey',
+        html.Div(id='page-content')
+        ]),
+        html.Div(
         children=[
             dcc.Graph(
             id='rks',
-            figure=full
+            figure=high,
             )
+
+        ]),
+        html.Div(
+        children=[
+        dcc.Graph(
+        id='rks2',
+        figure=mod,
+        )
+        ]),
+        html.Div(
+        children=[
+        dcc.Graph(
+        id='rks3',
+        figure=low,
+        )
         ]),
         html.Div(
             children=[
@@ -128,7 +134,7 @@ app.layout = html.Div(children = [
         )
     ])
 
-])
+
 
 
 if __name__ =='__main__':
