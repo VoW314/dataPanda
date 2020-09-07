@@ -27,5 +27,12 @@ that will also be installed. Type ```y``` and enter. Afterwards you should be ab
 you have all the pre-requesites listed in note number **1**. 
 
 
+
+### If there is an error with Plotly
+
+I have spent about 3-4 months with Plotly. From what I understand, if there is a problem with one of the libaries of Plotly not working as it is supposed to then it is advised to uninstall and then reinstall said libraries. https://github.com/plotly/dash-table/issues/496
+
+If you have a problem when trying to find a tutorial on the plotly website it will be better for you to go to the Plotly forums or github issues to look for your question. Much of the time when there is an error with the code you have even if it is the same as the Plotly code, it is likely because the Plotly website code was not updated yet. 
+
 README last updated: 
-8/17/2020
+9/6/2020
