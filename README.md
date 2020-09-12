@@ -61,7 +61,7 @@ I have spent about 3-4 months with Plotly. From what I understand, if there is a
 
 If you have a problem when trying to find a tutorial on the plotly website it will be better for you to go to the Plotly forums or github issues to look for your question. Much of the time when there is an error with the code you have even if it is the same as the Plotly code, it is likely because the Plotly website code was not updated yet. 
 
-## Project Data & Data Reprot
+## Project Data & Data Report
 __Data__ : https://docs.google.com/spreadsheets/d/1SAW-p09weC2KjyDR5pGPScxM79TPL4VIbMWpczjlBJ4/edit?usp=sharing
 
 
