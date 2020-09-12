@@ -67,6 +67,8 @@ __Data__ : https://docs.google.com/spreadsheets/d/1SAW-p09weC2KjyDR5pGPScxM79TPL
 
 __Data Report__ : https://docs.google.com/document/d/1hpRszvJcM9FMXhDuTRkwINe9tbEGUBWYZ3cMXpf2t84/edit?usp=sharing
 
+__Original CSS__ (I later changed some of it): https://github.com/plotly/dash-sample-apps/blob/master/apps/dash-uber-rides-demo/assets/style.css
+
 
 ### README last updated: 
 #### 9/12/2020
