@@ -8,8 +8,11 @@ in Virginia in the Fall?" The latest update of the school data was 8/17/20. The 
 2. I do not have a webscraper in place to harvest the data from VDH. The VDH data table for cases sometimes has multiple dates mixed meaning that one could find two of the same county in a list that should 
 only have 1 of the county on a particular date.  
 
-## VERSION 4 IS THE LATEST VERSION!!
-
+:octocat:
+```yaml
+VERSION 4 IS THE LATEST VERSION!!
+```
+:octocat:
 ## Starting the Website
 
 1. Go into the command prompt and select the path where ```app.py``` is located
