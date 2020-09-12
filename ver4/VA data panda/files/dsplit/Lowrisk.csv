@@ -1,0 +1,63 @@
+,County,Number of Students,Elementary school Plan,Secondary School Plan,Risk,FIPS,Cases
+1,Albermarle,14435,All virtual ,All virtual ,Low,51003,"1,002"
+2,Alexandria,16307,All Virtual,All Virtual,Low,51510,"3,352"
+7,Arlington,28151,All Virtual,All Virtual,Low,51013,"3,492"
+14,Brunswick,1538,All virtual ,All virtual ,Low,51025,281
+19,Caroline,4253,All Virtual,All Virtual,Low,51033,256
+22,Charlotte,1763,All virtual ,All virtual,Low,51037,67
+23,Charolttesville,4549,All Virtual,All Virtual,Low,51540,623
+24,Cheaspeake,41597,All Virtual,All Virtual,Low,51550,"3,685"
+25,Chesterfield*,62669,All Virtual,All Virtual,Low,51041,"4,974"
+27,Colonial Heights,2899,All students 5 days in-person 5 hours a day,All students 5 days in-person 5 hours a day,Low,51570,219
+31,Cumberland,1321,All virtual,All virtual,Low,51049,96
+32,Danville,5702,All virtual,All virtual,Low,51590,582
+37,Fairfax,188940,All Virtual,All Virtual,Low,51059,"18,084"
+38,Fairfax City,1078,All Virtual,All Virtual,Low,51600,110
+39,Falls Church,2649,All virtual,All virtual,Low,51610,66
+40,Fauquier,11181,All Virtual,All Virtual,Low,51061,742
+42,Fluvanna,3549,All Virtual,All Virtual,Low,51065,222
+43,Franklin City,7042,All virtual,All Virtual,Low,51620,283
+46,Fredericksburg,3763,All virtual ,All virtual,Low,51630,472
+47,Galax,1338,All virtual,All virtual,Low,51640,394
+49,Gloucester,5306,All Virtual,All Virtual,Low,51073,200
+50,Goochland,2619,All Virtual,All Virtual,Low,51075,214
+53,Greensville,2223,All Virtual,All Virtual,Low,51081,668
+54,Halifax,4896,All Virtual,All Virtual,Low,51083,202
+55,Hampton,19590,All Virtual,All Virtual,Low,51650,"1,519"
+57,Harrisonburg,6613,All Virtual,All Virtual,Low,51660,"1,203"
+58,Henrico,51786,All virtual,All virtual,Low,51087,"4,510"
+59,Henry,7381,All virtual,All Virtual,Low,51089,809
+61,Hopewell,4283,All Virtual,All Virtual,Low,51670,338
+63,James City,11400,All virtual,All virtual,Low,51095,726
+65,King George,4518,All virtual ,All virtual,Low,51099,202
+67,Lancaster,1079,All Virtual,All Virtual,Low,51103,66
+70,Loudoun,83936,All virtual,All virtual,Low,51107,"5,878"
+75,Manassas City,7789,All virtual ,All virtual,Low,51683,"1,782"
+76,Manassas Park,3641,All virtual ,All virtual,Low,51685,558
+77,Martinsville,1930,All virtual,All Virtual,Low,51690,316
+84,Newport News,28655,All Virtual,All Virtual,Low,51700,"2,216"
+85,Norfolk,29851,All virtual,All virtual,Low,51710,"4,328"
+89,Nottoway,1990,All Virtual,All Virtual,Low,51135,194
+92,Patrick,2558,All virtual,All Virtual,Low,51141,217
+93,Petersburg,4211,All Virtual,All Virtual,Low,51730,614
+94,Pittsylvania,8723,All Virtual,All Virtual,Low,51143,714
+96,Portsmouth,13991,All Virtual,All Virtual,Low,51740,"2,186"
+98,Prince Edward,2057,All Virtual,All Virtual,Low,51147,478
+100,Prince William,92270,All virtual ,All virtual,Low,51153,"10,648"
+104,Richmond City,25212,All virtual ,All virtual ,Low,51760,"3,795"
+106,Roanoke City,14049,All Virtual,All Virtual,Low,51770,"1,179"
+113,Shenandoah,6006,All Virtual,All Virtual,Low,51171,764
+114,Smyth,4269,All virtual,All virtual,Low,51173,253
+115,Southampton,2803,All virtual,All Virtual,Low,51175,338
+116,Spotsylvania,23903,All virtual ,All virtual,Low,51177,"1,769"
+117,Stafford,30120,All Virtual,All Virtual,Low,51179,"1,660"
+119,Suffolk,14323,All virtual,All Virtual,Low,51800,"1,603"
+120,Surry,738,All Virtual,All Virtual,Low,51181,63
+121,Sussex,1095,All Virtual tentatively,All Virtual tentatively,Low,51183,334
+123,Virginia Beach,68706,All Virtual,All Virtual,Low,51810,"5,948"
+125,Washington,7052,All virtual,All virtual,Low,51191,345
+126,Waynesboro,2961,All remote,All remote,Low,51820,214
+127,Westmoreland,1603,All Virtual,All Virtual,Low,51193,223
+128,Willamsburg,11805,All virtual,All virtual,Low,51830,153
+131,Wythe,3982,All virtual,All virtual,Low,51197,149
+132,York,13184,All Virtual,All Virtual,Low,51199,444

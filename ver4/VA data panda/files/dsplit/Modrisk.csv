@@ -1,0 +1,43 @@
+,County,Number of Students,Elementary school Plan,Secondary School Plan,Risk,FIPS,Cases
+0,Accomack,5171,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate,51001,"1,141"
+3,Alleghany,2024,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate,51005,64
+5,Amherst,4115,All students 4 days in-school on staggered schedule and 1 day virtual,2 days in-school (50% students) and 3 days virtual ,Moderate,51009,277
+8,Augusta,10342,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate,51015,354
+11,Bland,693,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate,51021,42
+16,Buckingham,2113,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate,51029,644
+20,Carroll,3713,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate,51035,388
+26,Clarke,1926,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate,51043,78
+30,Culpeper,8521,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate,51047,"1,104"
+33,Dickenson,2064,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate,51051,63
+34,Dinwiddie,4347,"2 days in-person (50% students), 2 days at home learning","2 days in-person (50% students), 2 days at home learning",Moderate,51053,281
+44,Frankling County,7000,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate,51067,208
+45,Frederick,13880,"All PK-1, 4 days in-person","Grade 2-12, 2 days in-school (50%) and 3 days virtual",Moderate,51069,757
+48,Giles,2394,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate,51071,37
+62,Isle of Wight,5630,"PK-Grade 3, 2 days in-school (50% students) and 3 days virtual ","Grade 4-12, all virtual",Moderate,51093,519
+64,King and Queen,833,"PK-7, 2 days in-school (50% students) and 3 days virtual","Grade 8-12, 3 groups (50% students)",Moderate,51097,49
+66,King William,2188,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate,51101,111
+68,Lee,3192,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate,51105,183
+71,Louisa,4987,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate,51109,243
+73,Lynchburg,8238,2 days in-school (50% students) and 2 days virtual,All students virtual until September 8,Moderate,51680,936
+74,Madison,1726,"All students K-3, 4 days in-school and 1 day virtual. Grade 4-5, 2 days in-school (50% students) and 3 days virtual","Grade 6-7, 2 days in-school (50% students) and 3 days virtual. Grade 8, 1 day in-school (50% student) and 4 days virtual",Moderate,51113,87
+78,Mathews,1008,K-Grade 8; First 2 weeks 50% students; remaing 9 weeks all virtual,All Virtual,Moderate,51115,23
+80,Middlesex,1208,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate,51119,55
+81,Montgomery,10102,4 half days (50% students),4 half days (50% students),Moderate,51121,427
+83,New Kent,3354,"2 days in-person (50% students), 2 days non internet based activites from home","All students 2 days in-person (50% students), 2 days non internet based activites from home",Moderate,51127,147
+86,Northampton,1520,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate,51131,303
+87,Northumberland,1279,"PK-Grade 3, 2 days in-school (50% students) and 3 days virtual ","Grade 4-12, all virtual",Moderate,51133,86
+90,Orange,5092,2 days in-school (50% students) and 3 days virtual ,"Grade 6-8, 2 days in-school and 3 days virtual. Grade 9-12, 1 day in-school (25% student) and 4 days virtual",Moderate,51137,257
+91,Page,3354,"All PK-1, 4 days in-person (upto 12 students in a class)","Grade 2-8, 2 days in-school (50%) and 3 days virtual; Grade 9-12, 2 days in-person (50% students) and 3 days virtual",Moderate,51139,360
+95,Poquoson,2137,"PK-Grade 3, 2 days in-school (50%), 3 days virtual",Grade 4-12 all viirtual,Moderate,51735,63
+101,Pulaski,4096,"5 days in-school  (25% students) first week, 50% week 2 & 3","Grade 6-8, Half day first week and all virtual from week 2. Grade 9-12, 5 days in-school  (25% students)",Moderate,51155,126
+102,Radford,1642,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate,51750,282
+103,Rappahannock,791,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate,51157,53
+108,Rockbridge,2819,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate,51163,84
+109,Rockingham,11928,"PK-Grade1, 4 days in-person, 1 day virtual","Grade2-12, all virtual",Moderate,51165,"1,032"
+110,Russell,3715,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate,51167,177
+111,Salem,3931,1 day in-school (25%) until Sept 11,1 day in-school (25%) until Sept 11,Moderate,51775,208
+112,Scott,3512,"All students PK-Grade 3, 4 days in school",All Virtual for students Grade 4- 12 ,Moderate,51169,148
+118,Staunton,2738,2 days in-school (50% students) with modified schedule and 3 days virtual ,2 days in-school (50% students) with modified schedule and 3 days virtual ,Moderate,51790,170
+122,Tazewell,5587,All students 4 days in-school and 1 day virtual,All students 4 days in-school and 1 day virtual,Moderate,51185,186
+124,Warren,5376,All students 4 days in-school and 1 day virtual,1 day in school and 4 days virtual,Moderate,51187,389
+130,Wise,5632,2 days in-school (50% students) and 3 days virtual ,2 days in-school (50% students) and 3 days virtual ,Moderate,51195,317
