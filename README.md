@@ -68,4 +68,4 @@ __Original CSS__ (I later changed some of it): https://github.com/plotly/dash-sa
 
 
 ### README last updated: 
-#### 9/12/2020
+#### 9/13/2020
