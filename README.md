@@ -1,4 +1,4 @@
-# VA DATA PANDAS by Shreyas Bera TST314
+# VA DATA PANDAS by Shreyas Bera
 
 The following project answers the question "What is the risk of going back to schools in Virginia in the Fall of 2020 during the COVID-19 pandemic?"  The latest update of the school data was 8/17/20. The latest cases data was updated on 8/28/20. The main reason for the latest data dates being different is due to two reasons.
 
