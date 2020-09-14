@@ -1,19 +1,17 @@
 # VA DATA PANDAS
 
-The following is a project that answers the question "What is the risk of going back to schools
-in Virginia in the Fall?" The latest update of the school data was 8/17/20. The latest cases data is 8/28/20. The main reason for the latest data dates being different is made up of two reasons. 
+The following project answers the question "What is the risk of going back to schools in Virginia in the Fall of 2020 during the COVID-19 pandemic?"  The latest update of the school data was 8/17/20. The latest cases data was updated on 8/28/20. The main reason for the latest data dates being different is due to two reasons.
 
-1. I had to find the data by going to each county web page and looking at specifically what there plan was. 8/17/20 is when I finally finished the search and a bit after I had finished the search for the information a local news station had collected all the data (which were just links to PDFs the school had given for their plans) for the reopening plans.
+1.	I had to find the data by going to each county web page and looking at specifically what their reopening plan was. 8/17/20 is when I finally the then current information about reopening plans. However, this is no longer the most current information as many hybrid schools have now gone into remote learning. The data is only relevant to the time it was collected and due to the fluidity of the situation plans change.
 
-2. I do not have a webscraper in place to harvest the data from VDH. The VDH data table for cases sometimes has multiple dates mixed meaning that one could find two of the same county in a list that should 
-only have 1 of the county on a particular date.  
+2.	I do not have a webscraper in place to harvest the data from the VDH database. This means the process of copying, pasting, cleaning, and loading the data is done manually. Doing it manually is time consuming. 
 
 :octocat:
 ```yaml
 VERSION 4 IS THE LATEST VERSION!!
 ```
 :octocat:
-## Starting the Website
+## Running the Website
 
 1. Go into the command prompt and select the path where ```app.py``` is located
 2. ```python app.py``` in the terminal will create the page.
@@ -57,9 +55,8 @@ you have all the pre-requesites listed in note number **1**.
 
 ## Plotly Side Error
 
-I have spent about 3-4 months with Plotly. From what I understand, if there is a problem with one of the libaries of Plotly not working as it is supposed to then it is advised to uninstall and then reinstall said libraries. https://github.com/plotly/dash-table/issues/496 . Bugs like these will sometimes cause your code to work one day but not work the next. 
+I have spent about 3-4 months using Plotly. From what I understand, if there is a problem with one of the libaries of Plotly not working as it is supposed to then it is advised to uninstall and then reinstall said libraries https://github.com/plotly/dash-table/issues/496 . Bugs like these will sometimes cause your code to work one day but not work the next. __Before you uninstall any library you should make sure that it is a problem with the library and not any problem with the code or computer.__
 
-If you have a problem when trying to find a tutorial on the plotly website it will be better for you to go to the Plotly forums or github issues to look for your question. Much of the time when there is an error with the code you have even if it is the same as the Plotly code, it is likely because the Plotly website code was not updated yet. 
 
 ## Project Data & Data Report
 __Data__ : https://docs.google.com/spreadsheets/d/1SAW-p09weC2KjyDR5pGPScxM79TPL4VIbMWpczjlBJ4/edit?usp=sharing
