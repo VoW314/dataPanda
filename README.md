@@ -13,7 +13,7 @@ VERSION 4 IS THE LATEST VERSION!!
 :octocat:
 
 
-__UPDATE__ : 
+## UPDATE : 
 
 You can now run the code using the repl.it link at the bottom of this README! 
 
