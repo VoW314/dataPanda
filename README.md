@@ -11,6 +11,13 @@ The following project answers the question "What is the risk of going back to sc
 VERSION 4 IS THE LATEST VERSION!!
 ```
 :octocat:
+
+
+__UPDATE__ : 
+
+You can now run the code using the repl.it link at the bottom of this README! 
+
+
 ## Running the Website
 
 1. Go into the command prompt and select the path where ```app.py``` is located
