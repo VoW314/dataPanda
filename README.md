@@ -66,6 +66,7 @@ __Data Report__ : https://docs.google.com/document/d/1hpRszvJcM9FMXhDuTRkwINe9tb
 
 __Original CSS__ (I later changed some of it): https://github.com/plotly/dash-sample-apps/blob/master/apps/dash-uber-rides-demo/assets/style.css
 
+__Repl.it__ : [![Run on Repl.it](https://repl.it/badge/github/TST314/dataPanda)](https://repl.it/github/TST314/dataPanda)
 
 ### README last updated: 
-#### 9/14/2020
+#### 10/2/2020
