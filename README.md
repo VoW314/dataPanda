@@ -59,6 +59,16 @@ you have all the pre-requesites listed in note number **1**.
 
 I have spent about 3-4 months using Plotly. From what I understand, if there is a problem with one of the libaries of Plotly not working as it is supposed to then it is advised to uninstall and then reinstall said libraries https://github.com/plotly/dash-table/issues/496 . Bugs like these will sometimes cause your code to work one day but not work the next. __Before you uninstall any library you should make sure that it is a problem with the library and not any problem with the code or computer.__
 
+## Doing on Repl
+
+### To get to the directory
+```
+cd dataPanda-1
+cd ver4
+cd VA\ data\ panda/
+```
+now import [pip install] the required libraries from above. Then type ```python app.py```. When it sucessuflly runs click on the development website, http://127.0.0.1:8050/ , to open the program. 
+
 
 ## Project Data & Data Report
 __Data__ : https://docs.google.com/spreadsheets/d/1SAW-p09weC2KjyDR5pGPScxM79TPL4VIbMWpczjlBJ4/edit?usp=sharing
@@ -71,17 +81,7 @@ __Original CSS__ (I later changed some of it): https://github.com/plotly/dash-sa
 __Repl.it__ : [![Run on Repl.it](https://repl.it/badge/github/TST314/dataPanda)](https://repl.it/github/TST314/dataPanda)
 
 
-## Doing on Repl
 
-### To get to the directory
-```
-cd dataPanda-1
-cd ver4
-cd VA\ data\ panda/
-
-
-```
-now import [pip install] the required libraries from above. Then type ```python app.py```. When it sucessuflly runs click on the development website, http://127.0.0.1:8050/ , to open the program. 
 
 ### README last updated: 
 #### 10/5/2020
