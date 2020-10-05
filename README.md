@@ -71,9 +71,17 @@ __Original CSS__ (I later changed some of it): https://github.com/plotly/dash-sa
 __Repl.it__ : [![Run on Repl.it](https://repl.it/badge/github/TST314/dataPanda)](https://repl.it/github/TST314/dataPanda)
 
 
-## Updates
+## Doing on Repl
 
-A way to run the code on Repl is currently being worked on. 
+### To get to the directory
+```
+cd dataPanda-1
+cd ver4
+cd VA\ data\ panda/
+
+
+```
+now import [pip install] the required libraries from above. Then type ```python app.py```. When it sucessuflly runs click on the development website, http://127.0.0.1:8050/ , to open the program. 
 
 ### README last updated: 
-#### 10/2/2020
+#### 10/5/2020
