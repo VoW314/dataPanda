@@ -61,6 +61,8 @@ I have spent about 3-4 months using Plotly. From what I understand, if there is 
 
 ## Doing on Repl
 
+__Repl.it__ : [![Run on Repl.it](https://repl.it/badge/github/TST314/dataPanda)](https://repl.it/github/TST314/dataPanda)
+
 ### To get to the directory
 ```
 cd dataPanda-1
@@ -77,8 +79,6 @@ __Data__ : https://docs.google.com/spreadsheets/d/1SAW-p09weC2KjyDR5pGPScxM79TPL
 __Data Report__ : https://docs.google.com/document/d/1hpRszvJcM9FMXhDuTRkwINe9tbEGUBWYZ3cMXpf2t84/edit?usp=sharing
 
 __Original CSS__ (I later changed some of it): https://github.com/plotly/dash-sample-apps/blob/master/apps/dash-uber-rides-demo/assets/style.css
-
-__Repl.it__ : [![Run on Repl.it](https://repl.it/badge/github/TST314/dataPanda)](https://repl.it/github/TST314/dataPanda)
 
 
 
