@@ -61,7 +61,7 @@ I have spent about 3-4 months using Plotly. From what I understand, if there is 
 
 ## Doing on Repl (WIP)
 
-Replit is an online code editor and compiler. The Repl version of this is something that I am still trying to figure out. You may have to have an account in order to see the preview.  
+Replit is an online code editor and compiler. The Repl version of this is something that I am still trying to figure out. You may have to have an account in order to see the preview. This was being worked on in the case the user did not want to download all the files.  
 
 __Repl.it__ : [![Run on Repl.it](https://repl.it/badge/github/TST314/dataPanda)](https://repl.it/github/TST314/dataPanda)
 
