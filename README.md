@@ -59,9 +59,9 @@ you have all the pre-requesites listed in note number **1**.
 
 I have spent about 3-4 months using Plotly. From what I understand, if there is a problem with one of the libaries of Plotly not working as it is supposed to then it is advised to uninstall and then reinstall said libraries https://github.com/plotly/dash-table/issues/496 . Bugs like these will sometimes cause your code to work one day but not work the next. __Before you uninstall any library you should make sure that it is a problem with the library and not any problem with the code or computer.__
 
-## Doing on Repl (WIP
+## Doing on Repl (WIP)
 
-The Repl version of this is something that I am still trying to figure out. 
+Replit is an online code editor and compiler. The Repl version of this is something that I am still trying to figure out. You may have to have an account in order to see the preview.  
 
 __Repl.it__ : [![Run on Repl.it](https://repl.it/badge/github/TST314/dataPanda)](https://repl.it/github/TST314/dataPanda)
 
