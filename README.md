@@ -57,7 +57,7 @@ you have all the pre-requesites listed in note number **1**.
 
 ## Plotly Side Error
 
-I have spent about 3-4 months using Plotly. From what I understand, if there is a problem with one of the libaries of Plotly not working as it is supposed to then it is advised to uninstall and then reinstall said libraries https://github.com/plotly/dash-table/issues/496 . Bugs like these will sometimes cause your code to work one day but not work the next. __Before you uninstall any library you should make sure that it is a problem with the library and not any problem with the code or computer.__
+I have spent about 3-4 months using Plotly. From what I understand, if there is a problem with one of the libaries of Plotly not working as it is supposed to then it is advised to uninstall and then reinstall said libraries https://github.com/plotly/dash-table/issues/496#issuecomment-511262875 . Bugs like these will sometimes cause your code to work one day but not work the next. __Before you uninstall any library you should make sure that it is a problem with the library and not any problem with the code or computer.__
 
 ## Doing on Repl (WIP)
 
